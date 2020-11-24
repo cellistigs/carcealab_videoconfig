@@ -1,7 +1,0 @@
-setup.py
-configeditor/__init__.py
-configeditor/configeditor.py
-configeditor.egg-info/PKG-INFO
-configeditor.egg-info/SOURCES.txt
-configeditor.egg-info/dependency_links.txt
-configeditor.egg-info/top_level.txt
