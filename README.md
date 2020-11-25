@@ -6,27 +6,44 @@ This repo contains a python package (configeditor) and scripts to edit the confi
 To install this tool, you will need a working installation of [Anaconda](https://docs.anaconda.com/anaconda/install/) or [Miniconda](https://docs.conda.io/projects/continuumio-conda/en/latest/user-guide/install/) to manage your python environment.  
 
 Once you have an anaconda or miniconda installation, follow these steps: 
-1. Clone this repository 
+#### 1. Clone this repository 
 
 Run the following command in your shell:
 
 `git clone https://github.com/cellistigs/carcealab_videoconfig`
 
-2. Go to the repo that you cloned: 
+If this step is successful, you should see the following message:
+
+`Unpacking objects: 100% (70/70), done.`
+
+#### 2. Go to the repo that you cloned: 
 
 `cd path-to-your-directory/carcealab_videoconfig`
 
-3. Create a conda environment:
+#### 3. Create a conda environment:
 
 `conda env create -f install/env.yml`
 
-4. Activate the conda environment:
+If this step is successful, you should see the following code block: 
+
+```
+#                                                                                                                                       
+# To activate this environment, use                                                                                                    
+#                                                                                                                                       
+#     $ conda activate carcealab_videoconfig                                                                                            
+#                                                                                                                                      
+# To deactivate an active environment, use                                                                                              
+#                                                                                                                                       
+#     $ conda deactivate
+```
+
+#### 4. Activate the conda environment:
 
 `conda activate carcealab_videoconfig`
 
-After successful activation, you should see the expression (carcealab_videoconfig) constantly to the left of the command prompt.
+After successful activation, you should see the expression (carcealab\_videoconfig) to the left of the command prompt.
 
-5. Install this repository:
+#### 5. Install this repository:
 
 `pip install src/`
 
@@ -36,6 +53,10 @@ After successful installation, you should see the message `Successfully installe
 In script mode, we will use the shell to call python scripts. We will assume that you have a video accessible at location "videopath", and a config file accessible at location "configpath"- the style of this path will vary depending on your operating system, but be sure to use absolute paths ("/Users/home/..." as opposed to "~/"). Once you have a video and config you want to work with and you know where they are located, move into the scripts directory: 
 
 `cd path-to-your-directory/carcealab_videoconfig/scripts`
+
+Make sure to activate the conda environment if you are coming back to this step from other work:
+
+`conda activate carcealab_videoconfig`
 
 ### Check an existing config and video pair
 If you are fairly confident about a config and video pair and just want to check the results, run the following command: 
