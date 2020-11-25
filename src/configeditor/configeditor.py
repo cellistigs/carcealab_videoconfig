@@ -9,7 +9,7 @@ from moviepy.editor import VideoFileClip
 class ConfigEditor():
     """Object class to hold configuration data. Assumes a video that we want to analyze, and can be initalized from a file. Will assume yaml format. 
     """
-    def __init__(self,videopath,configpath,savepath = "./"):
+    def __init__(self,videopath,configpath,savepath = "."):
         """Initialize objects with the paths: videopath, configpath. 
 
         """
