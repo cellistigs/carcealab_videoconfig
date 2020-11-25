@@ -10,7 +10,7 @@ Once you have an anaconda or miniconda installation, follow these steps:
 
 Run the following command in your shell:
 
-`git clone git@github.com:cellistigs/carcealab_videoconfig`
+`git clone https://github.com/cellistigs/carcealab_videoconfig`
 
 2. Go to the repo that you cloned: 
 
