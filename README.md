@@ -49,6 +49,16 @@ After successful activation, you should see the expression (carcealab\_videoconf
 
 After successful installation, you should see the message `Successfully installed configeditor-0.0.1`. 
 
+#### 6. Incorporating updates:
+
+This repository will periodically be updated with new features or bug fixes. If you want to be safe, please run the following before using again:
+
+First, pull the newest version of the repo by running the following from the top level of the directory:
+
+`git pull`
+
+Additionally, please rerun step 5, (`pip install src/`) once again from the top level directory.
+
 ## Using this tool (Script Mode)
 In script mode, we will use the shell to call python scripts. We will assume that you have a video accessible at location "videopath", and a config file accessible at location "configpath"- the style of this path will vary depending on your operating system, but be sure to use absolute paths ("/Users/home/..." as opposed to "~/"). Once you have a video and config you want to work with and you know where they are located, move into the scripts directory: 
 
