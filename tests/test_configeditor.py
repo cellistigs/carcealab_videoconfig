@@ -26,6 +26,6 @@ class Test_ConfigEditor():
         ce.draw_rectangle(ax,(10,10),10,10,1,"red")
         ax.set_xlim(0,20)
         ax.set_ylim(0,20)
-        plt.savefig(os.path.join(testdir,"test_ConfigEditor_visualize_config.png")
+        plt.savefig(os.path.join(testdir,"test_ConfigEditor_visualize_config.png"))
 
 
