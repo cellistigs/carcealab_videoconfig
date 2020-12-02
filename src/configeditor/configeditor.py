@@ -43,15 +43,14 @@ class ConfigEditor():
         assert os.path.isdir(savepath),"This location is not a directory where images can be saved."
         self.savepath = savepath
 
-        
-
-
     def initialize_subplot_fig(self):
         """Creates a figure and axes for each of the boxes specified in the config file. 
 
         :return: returns a fig,ax pair initialized for each specified box. 
         """
         fig,ax = plt.subplots(self.nb_boxes,1,figsize = (10,10))
+        if self.nb_boxes == 1:
+            ax = [ax]
         for bi,box in enumerate(self.config["coordinates"]):
             ax[bi].set_title(box)
         return fig,ax
