@@ -23,6 +23,7 @@ install:
 - conda env create -f install/env.yml
 - conda activate carcealab_videoconfig  
 - pip install ./src
+- conda list
 script:
 - pytest tests
 
