@@ -24,5 +24,5 @@ install:
 - conda activate carcealab_videoconfig  
 - pip install ./src
 script:
-- pytest tests/test_local.py
+- pytest tests
 
